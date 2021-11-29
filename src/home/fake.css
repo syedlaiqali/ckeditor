@@ -1,0 +1,297 @@
+
+#dd1{
+background-color: darkcyan;
+height: 625px;
+width: 100%px;
+
+}
+#text1{
+background-color: rgb(194, 170, 38);
+color: rgb(5, 5, 5);
+position: absolute;
+top: 120px;
+left: 300px;
+border: solid rgba(228, 8, 173, 0.876);
+overflow:scroll;     
+width: 700px;
+height: 400px;
+}
+#hh1{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+/* //////////////////////////////////////////////////// */
+
+/* this dropdown list css */
+#droplist{
+    display: none;
+    position: absolute;
+    width: 76px;
+    
+    }
+    #dropwon #a{
+        display: block;
+    
+    }
+    #dropwon{
+        display: inline-block;
+        position: absolute;
+        top: 118px;
+        text-decoration: none;
+        left: 10px;
+        
+    }
+    #dropwon:hover #droplist{
+        display: block;
+        border: solid black;
+        position: absolute;
+        left: 78px;
+        top: -1px;
+        color: brown;
+        
+       
+    }
+    /* dropwnd heding css */
+    .drophed1{
+     
+     text-decoration: none;
+     font-size: 25px;
+    
+     background-color: #9400d1;
+     border: solid black;
+     color: rgb(245, 237, 237);
+    }
+    /* //////////////////////////////////////////////////////// */
+
+    
+    /* this is colors button css */
+    .color0{
+     background-color: black; 
+     width: 70px;
+     height: 30px;  
+     
+    }
+    .color1{
+     background-color:blue; 
+     width: 70px;
+     height: 30px; 
+     padding: 0%; 
+    }
+    .color2{
+     background-color: green; 
+     width: 70px;
+     height: 30px;  
+    }
+    .color3{
+     background-color:white; 
+     width: 70px;
+     height: 30px;  
+    }
+    .color4{
+     background-color:violet; 
+     width: 70px;
+     height: 30px;  
+    }
+    .color5{
+     background-color:yellow; 
+     width: 70px;
+     height: 30px;  
+    }
+    .color6{
+     background-color:red; 
+     width: 70px;
+     height: 30px;  
+    }
+    .color7{
+     background-color: indigo; 
+     width: 70px;
+     height: 30px;  
+    }
+    .color8{
+     background-color: purple; 
+     width: 70px;
+     height: 30px;  
+    }
+    .color9{
+     background-color: orangered; 
+     width: 70px;
+     height: 30px;  
+    }
+    /* //////////////////////////////////////////////////// */
+/* this is puls + - button  */
+
+.plusb{
+position: absolute;
+top: 158px;
+left: 10px;
+border: solid black;
+font-size: 16px;
+height: 38px;
+background-color: green;
+color: white;
+}
+.mines{
+    position: absolute;
+    top: 198px;
+    left: 10px;
+    border: solid black;
+    font-size: 16px;
+    height: 38px;
+    background-color: rgb(207, 22, 5);
+    color: white;
+}
+/* ////////////////////////////////////////////// */
+ 
+ /* this is font family style css */
+
+ #droplist2{
+    display: none;
+    position: absolute;
+    width: 106px;
+    background-color: rgb(73, 48, 182);
+    
+    }
+    #dropwon2 #b{
+        display: block;
+    
+    }
+    #dropwon2{
+        display: inline-block;
+        position: absolute;
+        top: 240px;
+        text-decoration: none;
+        left: 17px;
+        
+    }
+    #dropwon2:hover #droplist2{
+        display: block;
+        border: solid black;
+        position: absolute;
+        left: 70px;
+        top: 0px;
+        color: brown;
+        
+       
+    }
+    #stylehed{
+        text-decoration: none;
+        font-size: 16px;
+        background-color: #281e75;
+        border: solid black;
+        color: rgb(245, 237, 237);
+        position: absolute;
+        left: -7px;
+        width: 75px;
+        height: 35px;
+        
+    }
+
+ /* tis is fontstyle buton color */
+ .style1{
+     background-color: rgb(6, 100, 177);
+     font-family:fantasy;
+     width: 100px;
+
+ }
+ .style2{
+    background-color: rgb(6, 100, 177);
+   font-family: cursive;
+   width: 100px;
+}
+.style3{
+    background-color: rgb(6, 100, 177);
+    font-family: monospace;
+    width: 100px;
+}
+.style4{
+    background-color: rgb(6, 100, 177);
+    font-family: sans-serif;
+    width: 100px;
+}
+.style5{
+    background-color: rgb(6, 100, 177);
+   font-family:serif;
+   width: 100px;
+}
+.style6{
+    background-color: rgb(6, 100, 177);
+    font-family: 'Courier New', Courier, monospace;
+    width: 100px;
+
+}
+
+/* this is backgrond css */
+
+#droplist3{
+    display: none;
+    position: absolute;
+    width: 106px;
+    background-color: rgb(73, 48, 182);
+    
+    }
+    #dropwon3 #b3{
+        display: block;
+    
+    }
+    #dropwon3{
+        display: inline-block;
+        position: absolute;
+        top: 280px;
+        text-decoration: none;
+        left: 10px;
+        
+    }
+    #dropwon3:hover #droplist3{
+        display: block;
+        border: solid black;
+        position: absolute;
+        left: 77px;
+        top: 0px;
+        color: brown;
+        
+       
+    }
+    #bgbutton{
+        background-color: rgb(126, 10, 87);
+        width: 75px;
+       border: solid black;
+       color: white;
+    }
+ /* background buttun css with class */
+
+ .b31{
+  background-color: #606a37;
+  width: 100px;
+  height: 27px;
+}
+.b32{
+    background-color:#1a0700;
+    width: 100px;
+    height: 27px;
+  }
+  .b33{
+    background-color:  #000033;
+    width: 100px;
+    height: 27px;
+  }
+  .b34{
+    background-color: #330000 ;
+    width: 100px;
+    height: 27px;
+  }
+  .b35{
+    background-color:#1a3300;
+    width: 100px;
+    height: 27px;
+  }
+  .b36{
+    background-color:  #331f00;
+    width: 100px;
+    height: 27px;
+  }
+  .b37{
+    background-color: #d9d9d9;
+    width: 100px;
+    height: 27px;
+  }
